@@ -1,0 +1,30 @@
+{
+  "name": "@zerocore/amqp-event",
+  "version": "0.1.0",
+  "description": "Module to create and manage events use RabbitMQ (amqplib).",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 999999 --recursive --colors ./src/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zerocorevn/amqp-event.git"
+  },
+  "keywords": [
+    "amqplib",
+    "amqp-event",
+    "zerocore"
+  ],
+  "author": "zerocore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zerocorevn/amqp-event/issues"
+  },
+  "homepage": "https://github.com/zerocorevn/amqp-event#readme",
+  "dependencies": {
+    "amqplib": "^0.5.5"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  }
+}
